@@ -1,0 +1,103 @@
+.nav_bar{
+    width: 100%;
+    height: 100px;
+
+    background-color: var(--primary-color);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_bar > .left_logo > a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav_bar > .right_menu > a{
+    text-decoration: none;
+    color: #FFF;
+
+    margin: 18px;
+    font-size: 18px;
+
+    transition: 0.2s;
+}
+
+.nav_bar > .right_menu > a:hover{
+    filter: brightness(90%);
+
+    border-bottom: 3px solid #FFF;
+}
+
+
+.nav_bar_mobile{
+    display: none !important;
+}
+
+.initial_welcome{
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px;
+
+}
+
+.initial_welcome > .left_welcome_message{
+    width: 50%;
+    height: 50vh;
+    margin: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    
+}
+
+.initial_welcome > .left_welcome_message > a > button{
+    width: 200px;
+    height: 50px;
+
+    border: none;
+    border-radius: 12px;
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    text-align: center;
+
+    transition: 0.2s;
+}
+
+.initial_welcome > .left_welcome_message > a > button:hover{
+    filter: brightness(90%);
+}
+
+.initial_welcome > .left_welcome_message > a > button > .arrow_icon{
+    transition: 0.2s;
+}
+
+.initial_welcome > .left_welcome_message > a > button:hover .arrow_icon{
+    -webkit-transform: translateX(30%);
+    transform: translateX(30%);
+}
+
+.initial_welcome > .right_image_gif {
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.initial_welcome > .right_image_gif > img{
+    width: 50%;
+    height: auto;
+}

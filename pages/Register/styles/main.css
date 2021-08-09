@@ -1,0 +1,120 @@
+.nav_bar{
+    width: 100%;
+    height: 100px;
+
+    background-color: var(--primary-color);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_bar > .left_logo > a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav_bar > .right_menu > a{
+    text-decoration: none;
+    color: #FFF;
+
+    margin: 18px;
+    font-size: 18px;
+
+    transition: 0.2s;
+}
+
+.nav_bar > .right_menu > a:hover{
+    filter: brightness(90%);
+
+    border-bottom: 3px solid #FFF;
+}
+
+
+.nav_bar_mobile{
+    display: none !important;
+}
+
+
+/*main styles*/
+
+.container_main{
+    background-color: #F3F3F3;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+
+.container_main > .row_main{
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_main > .row_main > .col_main{
+    width: auto;
+    height: auto;
+
+    padding: 10px;
+
+    background-color: #FFFF;
+
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_main > .row_main > .col_main > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container_main > .row_main > .col_main > h1{
+    margin-bottom: 40px;
+    font-size: 34px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container_main > .row_main > .col_main > form > input{
+    margin: 12px;
+    border: 1px solid #535c68;
+    height: 40px;
+    width: 280px;
+
+    padding-left: 5px;
+    border-radius: 4px;
+}
+
+.container_main > .row_main > .col_main > form > button{
+    margin: 12px;
+    height: 40px;
+    width: 280px;
+    border: none;
+    padding-left: 5px;
+    border-radius: 4px; 
+
+    background-color: var(--primary-color);
+    color: #FFFF;
+
+    transition: 0.2s;
+}
+
+.container_main > .row_main > .col_main > form > button:hover{
+    filter: brightness(90%);
+}
+
+.container_main > .row_main > .col_main > form > input:focus{
+    outline: 0;
+}
